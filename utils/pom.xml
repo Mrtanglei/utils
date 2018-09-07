@@ -60,5 +60,7 @@
         </plugins>
     </build>
 
-
+    <modules>
+        <module>wechat-menu</module>
+    </modules>
 </project>
