@@ -62,5 +62,7 @@
 
     <modules>
         <module>wechat-menu</module>
+        <module>email</module>
+        <module>common-utils</module>
     </modules>
 </project>
