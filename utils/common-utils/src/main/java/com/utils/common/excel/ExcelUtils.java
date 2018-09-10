@@ -16,7 +16,7 @@ import java.util.Date;
  * @author tanglei
  * @date 18/9/10 下午12:49
  */
-public class BaseExportService {
+public class ExcelUtils {
 
     /**
      * 将文件写入响应流,实现同步下载
