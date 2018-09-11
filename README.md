@@ -6,3 +6,4 @@
 * common moduel下是一些公用的util
   * [日期工具类](https://github.com/Mrtanglei/utils/blob/master/utils/common-utils/src/main/java/com/utils/common/date/DateUtils.java)
   * [excel工具类](https://github.com/Mrtanglei/utils/tree/master/utils/common-utils/src/main/java/com/utils/common/excel)
+  * [高德地图](https://github.com/Mrtanglei/utils/blob/master/utils/map/src/main/java/com/utils/map/amap/AMapUtils.java)
