@@ -44,6 +44,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20140107</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -68,5 +73,6 @@
         <module>wechat-menu</module>
         <module>email</module>
         <module>common-utils</module>
+        <module>map</module>
     </modules>
 </project>
