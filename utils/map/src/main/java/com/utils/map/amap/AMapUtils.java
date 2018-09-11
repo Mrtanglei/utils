@@ -15,7 +15,7 @@ import java.io.IOException;
 public class AMapUtils {
 
     /**
-     * 高德获取城市信息
+     * ip定位
      *
      * @return
      * @throws JSONException
@@ -23,9 +23,9 @@ public class AMapUtils {
      */
     public static String guideGetCityCode(String ip) throws JSONException, IOException {
         JSONObject json = MapCommon.readJsonFromUrl("http://restapi.amap.com/v3/ip?ip=" + ip + "&key=" + MapCommon.AMAP_KEY + "");
-        //String province = (String) json.get("province");
-        // String city = (String) json.get("city");
-        String adcode = (String) json.get("adcode");
-        return adcode;
+        if (Integer.parseInt((String) json.get("status")) == 1) {
+            return json.toString();
+        }
+        return null;
     }
 }

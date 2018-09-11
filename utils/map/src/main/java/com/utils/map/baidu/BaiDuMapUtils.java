@@ -15,7 +15,7 @@ import java.io.IOException;
 public class BaiDuMapUtils {
 
     /**
-     * 百度获取城市信息
+     * ip定位
      *
      * @return
      * @throws JSONException
@@ -23,9 +23,11 @@ public class BaiDuMapUtils {
      */
     public static String baiduGetCityCode(String ip) throws JSONException, IOException {
 
-        //这里调用百度的ip定位api服务 详见 http://api.map.baidu.com/lbsapi/cloud/ip-location-api.htm
+        //这里调用百度的ip定位api服务
         JSONObject json = MapCommon.readJsonFromUrl("http://api.map.baidu.com/location/ip?ip=" + ip + "&ak=" + MapCommon.BAI_DU_MAP_AK + "&coor=bd09ll");
-        JSONObject detail = (JSONObject) ((JSONObject) json.get("content")).get("address_detail");
-        return (String) detail.get("province") + (String) detail.get("city") + (String) detail.get("district");
+        if (Integer.parseInt((String) json.get("status")) == 0) {
+            return json.toString();
+        }
+        return null;
     }
 }
