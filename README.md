@@ -7,4 +7,5 @@
   * [日期工具类](https://github.com/Mrtanglei/utils/blob/master/utils/common-utils/src/main/java/com/utils/common/date/DateUtils.java)
   * [excel工具类](https://github.com/Mrtanglei/utils/tree/master/utils/common-utils/src/main/java/com/utils/common/excel)
   * [高德地图](https://github.com/Mrtanglei/utils/blob/master/utils/map/src/main/java/com/utils/map/amap)
+   * [开发者文档](http://lbsyun.baidu.com/)
   * [百度地图](https://github.com/Mrtanglei/utils/tree/master/utils/map/src/main/java/com/utils/map/baidu)
