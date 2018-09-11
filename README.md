@@ -8,5 +8,5 @@
   * [excel工具类](https://github.com/Mrtanglei/utils/tree/master/utils/common-utils/src/main/java/com/utils/common/excel)
   * [高德地图](https://github.com/Mrtanglei/utils/blob/master/utils/map/src/main/java/com/utils/map/amap)
     * [开发者文档](https://lbs.amap.com/)
-  * [百度地图](https://github.com/Mrtanglei/utils/tree/master/utils/map/src/main/java/com/utils/map/baidu)
-    * [开发者文档](http://lbsyun.baidu.com/)
+  * [百度地图](https://github.com/Mrtanglei/utils/blob/master/MD/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE.MD)
+    
